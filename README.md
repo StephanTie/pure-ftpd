@@ -1,6 +1,6 @@
 # Easy install of pure-ftpd with docker-compose
 -----------------------------------------
-fresh start:
+fresh start of docker pureftpd:
 -----------------------------------------
 
 1.    cd /data  or other dir where you store your data
