@@ -2,7 +2,7 @@
 -----------------------------------------
 fresh start of pure-ftpd docker on Linux 
 -----------------------------------------
-Prerequisites Starting point: Ensure versions are equal or higher for: Ubuntu 18.04.4 LTS or higher with ufw,git,ssh installed  docker version 18.09.7 docker-compose 1.29.2
+Prerequisites Starting point: Ensure versions are equal or higher for: Ubuntu 18.04.4 LTS  with ufw,git,ssh installed  docker version 18.09.7 docker-compose 1.29.2
 
 **Step 1 - Precautions for automatic iptable changes by docker. **
 
