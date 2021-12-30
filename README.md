@@ -19,7 +19,7 @@ restart docker: sudo systemctl start docker
 **** Step 2 - Starting pure-ftpd container with docker-compose ** ** This step creates docker network ${NETWORK) which is defined in .env ****
 
 2.1.    cd /data  or other dir where you store your data
-2.2.    git clone https://github.com/StephanTie/pure-ftpd.git
+2.2.    git clone https://github.com/StephanTie/pure-ftpd.git and cd to pure-ftpd
 2.3.    cp .env.template .env
 2.4.    Change in the file .env user and password and allowed ip adress from client
 2.5.    sudo ./firststeponly.sh
