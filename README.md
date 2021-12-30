@@ -16,7 +16,7 @@ edit daemon.json: sudo vi /etc/docker/daemon.json
 
 restart docker: sudo systemctl start docker
 
-**** Step 2 - Starting pure-ftpd container with docker-compose ** ** This step creates docker network ${NETWORK) which is defined in .env ****
+**** Step 2 - Starting pure-ftpd container with docker-compose ** 
 
 2.1.    cd /data  or other dir where you store your data
 2.2.    git clone https://github.com/StephanTie/pure-ftpd.git and cd to pure-ftpd
